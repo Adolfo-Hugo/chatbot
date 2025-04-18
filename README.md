@@ -17,52 +17,7 @@ HugoChatB0t é um chatbot interativo desenvolvido com Streamlit que utiliza a AP
 - Python 3.7+
 - Conta no [OpenRouter](https://openrouter.ai/) para obter uma API key
 
-## Instalação
 
-1. Clone o repositório:
-```bash
-git clone https://github.com/seu-usuario/hugochatbot.git
-cd hugochatbot
-```
-
-2. Crie e ative um ambiente virtual (opcional mas recomendado):
-```bash
-python -m venv venv
-source venv/bin/activate  # No Windows: venv\Scripts\activate
-```
-
-3. Instale as dependências:
-```bash
-pip install -r requirements.txt
-```
-
-## Configuração
-
-1. Renomeie o arquivo `.env.example` para `.env` e adicione sua API key do OpenRouter:
-```
-API_KEY=sua_chave_aqui
-```
-
-2. Alternativamente, você pode configurar as secrets diretamente no Streamlit se estiver hospedando lá.
-
-## Uso
-
-Execute o aplicativo com:
-```bash
-streamlit run app.py
-```
-
-O aplicativo será aberto automaticamente no seu navegador padrão.
-
-## Estrutura do Projeto
-
-```
-hugochatbot/
-├── app.py            # Código principal do aplicativo
-├── requirements.txt  # Dependências do projeto
-├── .env.example      # Modelo de arquivo de configuração
-└── README.md         # Este arquivo
-```
 
 ## Tecnologias Utilizadas
 
