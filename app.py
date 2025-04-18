@@ -20,8 +20,7 @@ for msg in st.session_state.messages:
 
 
 prompt = st.chat_input("Digite sua mensagem:")
-st.markdown("---")
-st.markdown("<p style='text-align: center; font-size: 14px;'>© 2025 Adolfo Hugo Silva | Todos os direitos reservados</p>", unsafe_allow_html=True)
+
 
 if prompt:
     
@@ -58,3 +57,5 @@ if prompt:
         st.error(f"Erro na requisição: {response.status_code}")
         st.error(response.text)
 
+st.markdown("---")
+st.markdown("<p style='text-align: center; font-size: 14px;'>© 2025 Adolfo Hugo Silva | Todos os direitos reservados</p>", unsafe_allow_html=True)
