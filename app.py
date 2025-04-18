@@ -3,7 +3,7 @@ import requests
 import json
 api_key = st.secrets["API_KEY"] 
 
-st.set_page_config(page_title="Chatbot Interativo", layout="centered")
+st.set_page_config(page_title="Projeto - Chatbot", layout="centered")
 
 st.title("HugochatB0t")
 
