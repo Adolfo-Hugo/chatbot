@@ -1,2 +1,2 @@
-# chatbot
-chatbot st
+streamlit
+requests
